@@ -76,3 +76,7 @@ def get_ext_modules() -> list:
 
     
 setup(ext_modules=get_ext_modules())
+
+# export CPLUS_INCLUDE_PATH=/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/Headers
+# export C_INCLUDE_PATH=/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/Headers
+
